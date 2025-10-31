@@ -134,7 +134,7 @@ export function App() {
 				</div>
 			</div>
 			<div className="mt-10 rounded-2xl border border-gray-300 p-6">
-				<h4 className="text-lg font-medium">Fiserv CWAM Example</h4>
+				<h4 className="text-lg font-medium">Use-Case Example</h4>
 				<p className="mt-2 text-sm text-gray-600">Deployed for contingent worker monitoring across vendor ODCs; role‑based policies, incident logging, and phased rollout options.</p>
 				<ul className="mt-4 list-disc pl-5 text-sm text-gray-600">
 				<li>Direct vendor licensing or enterprise‑purchased seats</li>
@@ -170,7 +170,7 @@ export function App() {
 			<h2 className="mt-2 text-3xl font-semibold">Downloads & Docs</h2>
 			<ul className="mt-6 grid grid-cols-1 gap-4 md:grid-cols-2">
 				<li className="rounded-xl border border-gray-300 p-4">
-				<h4 className="font-medium">PhotoShield – Installation Guide (Fiserv)</h4>
+				<h4 className="font-medium">PhotoShield – Installation Guide</h4>
 				<p className="mt-1 text-sm text-gray-600">Endpoint requirements, MSI install steps, and agent configuration.</p>
 				</li>
 				<li className="rounded-xl border border-gray-300 p-4">
@@ -185,23 +185,12 @@ export function App() {
 		<section id="investors" className="border-t border-gray-300 bg-gray-50">
 			<div className="mx-auto max-w-7xl px-6 py-16">
 			<p className="text-xs uppercase tracking-widest text-gray-500">Investors</p>
-			<h2 className="mt-2 text-3xl font-semibold">SAFE Round</h2>
-			<div className="mt-4 grid grid-cols-1 gap-6 md:grid-cols-3">
+			<h2 className="mt-2 text-3xl font-semibold">Investor Inquiry</h2>
+
+			<div className="p-6">
 				<div className="rounded-2xl border border-gray-300 bg-white p-6">
-				<h4 className="font-medium">Terms Summary</h4>
-				<ul className="mt-2 space-y-1 text-sm text-gray-600">
-					<li>• Post‑Money Valuation Cap: $12M</li>
-					<li>• Discount: 20% (80% of round price)</li>
-					<li>• Automatic conversion on institutional equity financing</li>
-				</ul>
-				</div>
-				<div className="rounded-2xl border border-gray-300 bg-white p-6">
-				<h4 className="font-medium">Use of Proceeds</h4>
-				<p className="mt-2 text-sm text-gray-600">Working capital to scale engineering, pilots, and enterprise rollouts.</p>
-				</div>
-				<div className="rounded-2xl border border-gray-300 bg-white p-6">
-				<h4 className="font-medium">Get Materials</h4>
-				<p className="mt-2 text-sm text-gray-600">Request the latest term sheet, SAFE, and risk factors. Contact: invest@blackbar.ai</p>
+				<h4 className="font-medium">Contact Us</h4>
+				<p className="mt-1 text-sm text-gray-600">Blackbar.ai is always entertaining new interests. Please reach out to contact@blackbar.ai if you would like to know more about getting involved.</p>
 				</div>
 			</div>
 			</div>
