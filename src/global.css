@@ -1,11 +1,17 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px; /* Adjusts for header height plus some padding */
+}
+
 @theme {
 	--font-sans: Inter, sans-serif;
 	--company-color: #0075d7;
 	--company-color-hover: #00569cff;
-	--section-bg-primary: #1d1f20;
-	--section-bg-secondary: #161718;
+	--section-bg-primary: #0B0F14;
+	--section-bg-secondary: #15151C;
+	--container-bg: #0075d7;        /* for container backgrounds */
 	
 	/* Text colors */
 	--text-primary: #f3f4f6;      /* for main text, replacing text-gray-900 */
@@ -13,7 +19,7 @@
 	--text-tertiary: #6b7280;     /* for less emphasized text, replacing text-gray-500 */
 	--text-white: #ffffff;        /* for white text */
 	--text-hover: #d1d5db;        /* for hover states, replacing text-gray-700/800 */
-	--text-heading: #000000;      /* for h3 headings */
+	--text-heading: #d1d1d1;      /* for h3 headings */
 }
 
 /* 
