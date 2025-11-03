@@ -1,8 +1,8 @@
 export function App() {
 	return (
-		<div className="min-h-screen bg-white text-gray-900">
+		<div className="min-h-screen bg-[var(--section-bg-primary)] text-gray-900">
 		{/* Header */}
-		<header className="sticky top-0 z-40 border-b border-gray-200 bg-white/90 backdrop-blur">
+		<header className="sticky top-0 z-40 border-b border-gray-200 bg-[var(--section-bg-primary)]/90 backdrop-blur">
 			<div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
 			<div className="flex items-center gap-3">
 				<img src="/blackbar-logo.svg" alt="Blackbar Logo" className="h-8 w-auto" />
@@ -41,7 +41,7 @@ export function App() {
 			<div className="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm">
 				<div className="grid grid-cols-2 gap-4">
 				<div className="rounded-xl border border-gray-200 p-4">
-					<h3 className="text-sm font-medium">Application Privacy Controls</h3>
+					<h3 className="text-sm font-medium">Blackbar Application Privacy Controls</h3>
 					<p className="mt-2 text-sm text-gray-600">Real‑time masking/redaction of PII and sensitive data on the endpoint—no code changes required.</p>
 				</div>
 				<div className="rounded-xl border border-gray-200 p-4">
@@ -62,7 +62,7 @@ export function App() {
 		</section>
 
 		{/* Platform Overview */}
-		<section id="platform" className="border-t border-gray-200 bg-white">
+		<section id="platform" className="border-t border-gray-200 bg-[var(--section-bg-primary)]">
 			<div className="mx-auto max-w-7xl px-6 py-16">
 			<p className="text-xs uppercase tracking-widest text-gray-500">Platform</p>
 			<h2 className="mt-2 text-3xl font-semibold">Blackbar Endpoint Security Platform</h2>
@@ -93,7 +93,7 @@ export function App() {
 		</section>
 
 		{/* PhotoShield Detail */}
-		<section id="photoshield" className="border-t border-gray-200 bg-gray-50">
+		<section id="photoshield" className="border-t border-gray-200 bg-[var(--section-bg-secondary)]">
 			<div className="mx-auto max-w-7xl px-6 py-16">
 			<p className="text-xs uppercase tracking-widest text-gray-500">Product</p>
 			<h2 className="mt-2 text-3xl font-semibold">PhotoShield — Stop the Analog Loophole</h2>
@@ -115,7 +115,7 @@ export function App() {
 		</section>
 
 		{/* Solutions / Use Cases */}
-		<section id="solutions" className="border-t border-gray-200 bg-white">
+		<section id="solutions" className="border-t border-gray-200 bg-[var(--section-bg-primary)]">
 			<div className="mx-auto max-w-7xl px-6 py-16">
 			<p className="text-xs uppercase tracking-widest text-gray-500">Solutions</p>
 			<h2 className="mt-2 text-3xl font-semibold">Where Blackbar Delivers</h2>
@@ -146,7 +146,7 @@ export function App() {
 		</section>
 
 		{/* Compliance & Security */}
-		<section id="compliance" className="border-t border-gray-200 bg-gray-50">
+		<section id="compliance" className="border-t border-gray-200 bg-[var(--section-bg-secondary)]">
 			<div className="mx-auto max-w-7xl px-6 py-16">
 			<p className="text-xs uppercase tracking-widest text-gray-500">Security & Compliance</p>
 			<h2 className="mt-2 text-3xl font-semibold">Privacy‑First Architecture</h2>
@@ -164,7 +164,7 @@ export function App() {
 		</section>
 
 		{/* Resources */}
-		<section id="resources" className="border-t border-gray-200 bg-white">
+		<section id="resources" className="border-t border-gray-200 bg-[var(--section-bg-primary)]">
 			<div className="mx-auto max-w-7xl px-6 py-16">
 			<p className="text-xs uppercase tracking-widest text-gray-500">Resources</p>
 			<h2 className="mt-2 text-3xl font-semibold">Downloads & Docs</h2>
@@ -182,7 +182,7 @@ export function App() {
 		</section>
 
 		{/* Investors */}
-		<section id="investors" className="border-t border-gray-200 bg-gray-50">
+		<section id="investors" className="border-t border-gray-200 bg-[var(--section-bg-secondary)]">
 			<div className="mx-auto max-w-7xl px-6 py-16">
 			<p className="text-xs uppercase tracking-widest text-gray-500">Investors</p>
 			<h2 className="mt-2 text-3xl font-semibold">SAFE Round</h2>
@@ -208,7 +208,7 @@ export function App() {
 		</section>
 
 		{/* Contact */}
-		<section id="contact" className="border-t border-gray-200 bg-white">
+		<section id="contact" className="border-t border-gray-200 bg-[var(--section-bg-primary)]">
 			<div className="mx-auto max-w-7xl px-6 py-16">
 			<p className="text-xs uppercase tracking-widest text-gray-500">Contact</p>
 			<h2 className="mt-2 text-3xl font-semibold">Let’s talk</h2>
@@ -234,7 +234,7 @@ export function App() {
 		</section>
 
 		{/* Footer */}
-		<footer className="border-t border-gray-200 bg-white">
+		<footer className="border-t border-gray-200 bg-[var(--section-bg-primary)]">
 			<div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-6 py-10 md:flex-row">
 			<p className="text-sm text-gray-500">© {new Date().getFullYear()} Blackbar. All rights reserved.</p>
 			<div className="flex items-center gap-6 text-sm text-gray-600">
