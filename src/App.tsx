@@ -35,7 +35,7 @@ export function App() {
 				</p>
 				<div className="mt-8 flex gap-3">
 				<a href="#platform" className="rounded-xl bg-[var(--company-color)] px-4 py-2 text-white hover:bg-[var(--company-color-hover)]">Explore Platform</a>
-				<a href="#product" className="rounded-xl border border-gray-300 px-4 py-2 hover:bg-gray-50">See Blackbar</a>
+				<a href="#blackbar-video" className="rounded-xl border border-gray-300 px-4 py-2 hover:bg-gray-50">See Blackbar</a>
 				</div>
 			</div>
 			<div className="rounded-2xl border border-gray-300 bg-white p-6 shadow-sm">
@@ -56,6 +56,20 @@ export function App() {
 					<h3 className="text-sm font-medium">Enterprise‑Ready</h3>
 					<p className="mt-2 text-sm text-gray-600">AES‑256 at rest, TLS in transit, privacy by design—no continuous video recording.</p>
 				</div>
+				</div>
+			</div>
+			{/* Video Section */}
+			<div className="col-span-full flex justify-center w-full pt-20">
+				<div id="blackbar-video" className="w-1/2">
+					<div className="relative pb-[70%]">
+						<iframe
+							className="absolute inset-0 h-full w-full rounded-xl"
+							src="https://www.youtube.com/embed/sNGKDYxHcCM"
+							title="Blackbar Platform Overview"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowFullScreen
+						/>
+					</div>
 				</div>
 			</div>
 			</div>
@@ -92,8 +106,8 @@ export function App() {
 			</div>
 		</section>
 
-		{/* PhotoShield Detail */}
-		<section id="photoshield" className="border-t border-gray-200 bg-[var(--section-bg-secondary)]">
+		{/* Product Detail */}
+		<section id="product" className="border-t border-gray-200 bg-[var(--section-bg-secondary)]">
 			<div className="mx-auto max-w-7xl px-6 py-16">
 			<p className="text-xs uppercase tracking-widest text-gray-500">Product</p>
 			<h2 className="mt-2 text-3xl font-semibold">Blackbar — Stop the Analog Loophole</h2>
