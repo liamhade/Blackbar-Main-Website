@@ -27,7 +27,7 @@ export function App() {
 		{/* Hero */}
 		<section className="relative overflow-hidden">
 			<div className="absolute inset-0 -z-10 bg-gradient-to-br from-gray-50 to-gray-100" />
-			<div className="mx-auto flex flex-col items-center max-w-7xl px-6 pt-20 pb-20 text-center">
+			<div className="mx-auto flex flex-col items-center max-w-7xl px-6 pt-20 pb-50 text-center">
 			<div className="max-w-3xl">
 				<h1 className="text-4xl font-semibold leading-tight md:text-5xl">
 				Visual Data Protection for the Last Unsecured Gap
@@ -41,24 +41,9 @@ export function App() {
 				</div>
 
 				{/* Company logos bar (renders a horizontally scrollable row of partner logos) */}
-				<div className="py-10">
-					<CompanyLogosBar />
-				</div>
-			</div>
-		
-			{/* Video Section */}
-			<div className="w-full max-w-3xl mx-auto mt-16">
-				<div id="blackbar-video" className="w-full">
-					<div className="relative pb-[56.25%]">
-						<iframe
-							className="absolute inset-0 h-full w-full rounded-xl"
-							src="https://www.youtube.com/embed/sNGKDYxHcCM"
-							title="Blackbar Platform Overview"
-							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-							allowFullScreen
-						/>
-					</div>
-				</div>
+				{/* <div className="py-10"> */}
+					{/* <CompanyLogosBar /> */}
+				{/* </div> */}
 			</div>
 			</div>
 		</section>
@@ -82,13 +67,27 @@ export function App() {
 				</ul>
 				</div>
 				<div className="rounded-2xl border border-[var(--border-color)] bg-[var(--container-bg-primary)] p-6">
-				<h3 className="text-xl font-medium text-[var(--text-heading)]">Blackbar – Intelligent Threat Detection</h3>
+				<h3 className="text-xl font-medium text-[var(--text-heading)]">Photoshield – Intelligent Threat Detection</h3>
 				<ul className="mt-4 space-y-2 text-[var(--text-secondary)]">
 					<li>• Detects phones/cameras and shoulder‑surfing in real time</li>
 					<li>• Automated responses: screen block, watermark, alert, log</li>
 					<li>• Triggers on defined conditions (apps, sites, VPN, labels)</li>
 					<li>• Lightweight endpoint agent with central policy control</li>
 				</ul>
+				</div>
+			</div>
+			{/* Video Section */}
+			<div className="w-full max-w-xl mx-auto mt-16">
+				<div id="blackbar-video" className="w-full">
+					<div className="relative pb-[56.25%]">
+						<iframe
+							className="absolute inset-0 h-full w-full rounded-xl"
+							src="https://www.youtube.com/embed/sNGKDYxHcCM"
+							title="Blackbar Platform Overview"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowFullScreen
+						/>
+					</div>
 				</div>
 			</div>
 			</div>
