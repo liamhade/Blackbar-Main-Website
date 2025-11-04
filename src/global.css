@@ -11,7 +11,11 @@ html {
 	--company-color-hover: #00569cff;
 	--section-bg-primary: #0B0F14;
 	--section-bg-secondary: #15151C;
-	--container-bg: #0075d7;        /* for container backgrounds */
+	--container-bg-primary: #0B0F14;    /* for container backgrounds in primary sections */
+	--container-bg-secondary: #15151C;   /* for container backgrounds in secondary sections */
+
+	/* Button colors */
+	--secondary-button-hover: #232934;
 	
 	/* Text colors */
 	--text-primary: #f3f4f6;      /* for main text, replacing text-gray-900 */
@@ -20,6 +24,7 @@ html {
 	--text-white: #ffffff;        /* for white text */
 	--text-hover: #d1d5db;        /* for hover states, replacing text-gray-700/800 */
 	--text-heading: #d1d1d1;      /* for h3 headings */
+	--border-color: #232934;      /* for borders, replacing border-gray-300 */
 }
 
 /* 
